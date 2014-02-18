@@ -20,13 +20,9 @@ class BootStrap {
          log.info("Default admin user already exists")
        }
        // create languages:
-       if (!Language.findByShortForm("en")) {
-           log.info("Creating language 'en'")
-           new Language("English", "en").save()
-       }
-       if (!Language.findByShortForm("de")) {
-           log.info("Creating language 'de'")
-           new Language("German", "de").save()
+       if (!Language.findByShortForm("ca")) {
+           log.info("Creating language 'ca'")
+           new Language("català", "ca").save()
        }
        // create word forms:
        if (!WordGrammar.findByForm("undefined")) {
