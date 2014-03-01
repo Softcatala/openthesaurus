@@ -3,9 +3,8 @@
         <table style="width:100%">
             <tr>
                 <td>
-                    <g:link controller="about">Über</g:link>
+                    <g:link controller="about">Quant a</g:link>
                     &nbsp;&nbsp;&nbsp;<g:link controller="woerter" action="listen"><g:message code="homepage.wordlists"/></g:link>
-                    &nbsp;&nbsp;&nbsp;<a href="/jforum/forums/show/1.page">Forum</a>
                     &nbsp;&nbsp;&nbsp;<g:link controller="about" action="api"><g:message code="homepage.api.short"/></g:link>
                 </td>
                 <td style="text-align: right">
@@ -17,7 +16,7 @@
                             <span style="color:white"><g:message code="user.successful.login" args="${[session.user.userId]}"/></span>
                         </g:else>
                         &nbsp;
-                        <g:link controller="user" action="logout">Logout</g:link>
+                        <g:link controller="user" action="logout">Surt</g:link>
                     </g:if>
                     <g:else>
                         <g:if test="${params.q}">

@@ -13,7 +13,7 @@
 
         <hr/>
         
-        <h2>Über OpenThesaurus</h2>
+        <h2>Sobre l'OpenThesaurus</h2>
 
         <p>OpenThesaurus ist ein deutschsprachiges Wörterbuch für Synonyme und Assoziationen.
         Man kann damit Wörter mit gleicher oder ähnlicher Bedeutung nachschlagen. Zum Beispiel liefert
@@ -46,58 +46,36 @@
     
         <h2>Analysedienste &amp; Datenschutz</h2>
 
-        <p><g:link action="imprint">Siehe Impressum</g:link></p>
+        <p><g:link action="imprint">Informació de contacte</g:link></p>
 
 
-        <h2>Änderungen und News zu OpenThesaurus</h2>
+        <h2>Comunitat i notícies de l'Openthesaurus</h2>
 
         <ul>
-            <li><a href="newsletter">OpenThesaurus Newsletter</a></li>
-            <li><a href="newsarchive">News-Archiv</a></li>
-            <li><a href="../feed">RSS-Feed aller Aktualisierungen an den Daten</a></li>
+            <li><a href="newsletter">Llista de l'OpenThesaurus</a></li>
+            <li><a href="newsarchive">Arxiu de notícies</a></li>
         </ul>
 
 
-        <h2>OpenThesaurus auf Android</h2>
+
+        <h2>OpenThesaurus en altres llengües</h2>
 
         <ul>
-            <li><a href="https://play.google.com/store/apps/details?id=com.fc.ot">OpenThesaurus für Android</a>.
-              Lizenz: GPLv3, <a href="http://code.google.com/p/openthesaurusforandroid/">Sourcecode</a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=de.ad.openthesaurus">OpenThesaurus.de</a>.
-              Lizenz: GPLv3, <a href="http://code.google.com/p/openthesaurus-de/">Sourcecode</a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=de.offlinethesaurus">Offline Thesaurus (Synonyme)</a>.
-              Lizenz: GPLv3, <a href="http://code.google.com/p/offline-openthesaurus-de/">Sourcecode</a></li>
+            <li><a href="http://www.openthesaurus.de/">Alemany</a></li>
+            <li><a href="http://www.tezaver.si/">Eslovè</a></li>
+            <li><a href="http://openthes-es.berlios.de">Espanyol</a></li>
+            <li><a href="http://www.openthesaurus.gr/">Grec</a></li>
+            <li><a href="http://synonimy.sourceforge.net/">Polonès</a></li>
+            <li><a href="http://openthesaurus.caixamagica.pt/">Portuguès</a></li>
         </ul>
 
 
-        <h2>OpenThesaurus in anderen Sprachen</h2>
-
-        <ul>
-            <li><a href="http://www.openthesaurus.gr/">Griechisch</a></li>
-            <li><a href="http://synonimy.sourceforge.net/">Polnisch</a></li>
-            <li><a href="http://openthesaurus.caixamagica.pt/">Portugiesisch</a></li>
-            <li><a href="http://www.tezaver.si/">Slowenisch</a></li>
-            <li><a href="http://openthes-es.berlios.de">Spanisch</a></li>
-        </ul>
-
-
-        <h2>Technik &amp; Design</h2>
+        <h2>Tecnologia i disseny</h2>
     
-        <p>Die Website ist mit <a href="http://www.grails.org">Grails</a> umgesetzt und nutzt MySQL
-            als Datenbank.
-            Das Design stammt von <!--<a href="http://www.sabinesieg.de">-->Sabine Sieg.<!--</a>-->
+        <p>Aquest lloc web està fet amb el <a href="http://www.grails.org">Grails</a> i base de dades MySQL.
+            El disseny és de <!--<a href="http://www.sabinesieg.de">-->Sabine Sieg.<!--</a>-->
         </p>
 
-
-        <h2>Papers über OpenThesaurus</h2>
-
-        <p>In diesen Papers wird noch eine alte PHP-basierte Version beschrieben.</p>
-
-        <ul>
-            <li><a href="http://www.danielnaber.de/publications/gldv-openthesaurus.pdf">OpenThesaurus: ein
-            offenes deutsches Wortnetz (PDF, 536&nbsp;KB)</a></li>
-            <li><a href="../download/openthesaurus.pdf">OpenThesaurus: Building a Thesaurus with a Web Community (PDF, 266&nbsp;KB)</a></li>
-        </ul>
 
     <g:render template="/ads/about_bottom"/>
 

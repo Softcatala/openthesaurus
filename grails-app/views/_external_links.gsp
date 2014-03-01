@@ -24,7 +24,7 @@
 
     <%--
     <span class="d">&middot;</span>
-    <a href="http://www.google.de/search?q=${q.encodeAsURL()}&amp;lr=lang_de" title="Suche im Web">Google</a>
+    <a href="http://www.google.cat/search?q=${q.encodeAsURL()}&amp;lr=lang_ca" title="Cerca al web">Google</a>
     --%>
 
 </p>

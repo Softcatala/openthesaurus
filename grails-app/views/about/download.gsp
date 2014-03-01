@@ -10,50 +10,43 @@
     <body>
 
 <!-- NOTE: -->
-<!-- THIS CONTENT IS SPECIFIC TO WWW.OPENTHESAURUS.DE -->
+<!-- THIS CONTENT IS SPECIFIC TO CATALAN OPENTHESAURUS -->
 
     <hr />
     
-        <h2>Download der Daten</h2>
+        <h2>Baixada de les dades</h2>
 
-        <a href="http://creativecommons.org/licenses/LGPL/2.1/deed.de"><img align="right" style="margin-left: 15px" src="http://creativecommons.org/images/public/cc-LGPL-a.png" alt="GNU LGPL Logo"/></a>
-        <p>Die Wörter aus OpenThesaurus lassen sich hier in verschiedenen Formaten
-        herunterladen. Sie stehen unter der
-        <a href="http://creativecommons.org/licenses/LGPL/2.1/deed.de">GNU Lesser
-        General Public License</a> zur Verfügung.
+        <a href="http://creativecommons.org/licenses/LGPL/2.1/deed.ca"><img align="right" style="margin-left: 15px" src="http://creativecommons.org/images/public/cc-LGPL-a.png" alt="GNU LGPL Logo"/></a>
+        <p>Podeu baixar les paraules de l'OpenThesaurus en diferents formats. Les dades es troben disponibles sota els termes de la 
+        <a href="http://creativecommons.org/licenses/LGPL/2.1/deed.ca">GNU Lesser
+        General Public License</a>.
         <!-- text from about/index: -->
-        Das bedeutet vereinfacht gesagt, dass die Daten kostenlos genutzt, verarbeitet, geändert und weiterverbreitet
-        werden können, solange die weiterverbreiteten Daten ebenfalls für den User klar erkennbar unter der
-        LGPL stehen und openthesaurus.de als Quelle verlinkt wird.
+        Això vol dir, de forma resumida, que podeu sou lliure de procesar, reutilitzar, canviar i distribuir les dades disponibles, sempre que ho feu sota la mateixa llicència i indiqueu clarament aquest web com a font original.
         </p>
 
         <g:set var="sdf" value="${new SimpleDateFormat('yyyy-MM-dd HH:mm')}"/>
 
         <ul>
-            <li>OpenThesaurus ist beim deutschsprachigen LibreOffice und OpenOffice bereits enthalten. Wer die aktuellste Version nutzen möchte,
-                kann sie hier herunterladen: 
+            <li>El diccionari de sinònims ja es distribueix amb el LibreOffice. Si voleu usar una versió més actualitzada la podeu baixar aquí: 
                 <ul style="margin-top:0">
-                  <li><a href="../export/${oooDump.getName()}">Deutscher Thesaurus für LibreOffice/OpenOffice,
+                  <li><a href="../export/${oooDump.getName()}">Diccionari de sinònims català per al LibreOffice i l'Apache OpenOffice,
                     ${sdf.format(new Date(oooDump.lastModified()))},
                     ${String.format("%.2f", oooDump.length()/1000/1000)}MB</a></li>
-                  <li><a href="../export/${oooDumpCh.getName()}">Schweizer Version</a> (wie deutsch, nur alle <span class="bsp">ß</span> durch <span class="bsp">ss</span> ersetzt)</li>
+                  
                 </ul>
             </li>
 
-            <li><a href="../export/${textDump.getName()}">Thesaurus im Text-Format, gezippt,
+            <li><a href="../export/${textDump.getName()}">Diccionari de sinònims en format text, gzip,
                 ${sdf.format(new Date(textDump.lastModified()))},
                 ${String.format("%.2f", textDump.length()/1000/1000)}MB</a></li>
 
-            <li>Für Entwickler:
-                <a href="../export/${dbDump.getName()}">MySQL-Dump,
+            <li>Per als desenvolupadors:
+                <a href="../export/${dbDump.getName()}">Dump MySQL,
                     ${sdf.format(new Date(dbDump.lastModified()))},
                     ${String.format("%.2f", dbDump.length()/1000/1000)}MB</a><br/>
-                In dem Zusammenhang nützlich:
-                    <a href="http://www.danielnaber.de/morphologie/">Deutsches Vollformen-Wörterbuch zum Download</a> -
-                eine Liste deutscher Wörter mit allen flektierten Formen und ihren grammatischen Eigenschaften
             </li>
 
-            <li>Siehe auch: <a href="api">API-Zugriff</a></li>
+            <li>Llegiu també: <a href="api">API de consulta</a></li>
 
             <!--
             <li style="margin-top:15px"><a href="../old/thes_de_DE_v2.zip">Deutscher Thesaurus for OpenOffice.org 2.x, 2009-08-02</a> (wird nicht mehr aktualisiert)</li>
@@ -63,17 +56,15 @@
         </ul>
 
 
-        <h2>Download der Software</h2>
+        <h2>Baixada del programari</h2>
 
-        <p>Der Sourcecode der <a href="http://www.grails.org">Grails</a>-basierten Website kann bei
-          <a href="https://github.com/danielnaber/openthesaurus">bei github</a>
-          heruntergeladen werden:</p>
+        <p>El codi font d'aquest lloc web, basat en <a href="http://www.grails.org">Grails</a>, es pot baixar del
+          <a href="https://github.com/jmontane/openthesaurus">github de Softcatalà</a> i es basa en l'Openthesaurus.de:</p>
 
-          <pre style="margin-bottom: 10px" class="api">git clone https://github.com/danielnaber/openthesaurus.git</pre>
+          <pre style="margin-bottom: 10px" class="api">git clone https://github.com/jmontane/openthesaurus</pre>
 
-          <p>Der Sourcecode steht unter der <a href="http://www.gnu.org/licenses/agpl.html">Affero General Public License (AGPL)</a>.
-          Die Installation ist in einem <a href="https://github.com/danielnaber/openthesaurus/blob/master/README">README</a>
-          und <a href="http://www.openthesaurus.de/jforum/posts/list/71.page">hier im Forum</a> beschrieben.</p>
-
+          <p>El codi font del projecte original Openthesaurus.de alemany es troba sota els termes de l'<a href="http://www.gnu.org/licenses/agpl.html">Affero General Public License (AGPL)</a>.
+          Les instruccions de la instal·lació es troben al fitxer <a href="https://github.com/danielnaber/openthesaurus/blob/master/README">README</a>
+          i al <a href="http://www.openthesaurus.de/jforum/posts/list/71.page">fòrum </a>.</p>
     </body>
 </html>
