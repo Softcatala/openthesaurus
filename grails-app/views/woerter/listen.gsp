@@ -23,8 +23,6 @@
                             --%>
                             <li><g:link controller="association" action="list"><g:message code="association.link"/></g:link></li>
                             <li><g:link controller="term" action="antonyms"><g:message code="antonyms.link"/></g:link></li>
-                            <li><g:link controller="synset" action="variation" id="at"><g:message code="austrian.words"/></g:link></li>
-                            <li><g:link controller="synset" action="variation" id="ch"><g:message code="swiss.words"/></g:link></li>
                             <li><g:link controller="random" action="synsets"><g:message code="random.headline"/></g:link></li>
                             <li><g:link controller="tree" action="index"><g:message code="tree.headline"/></g:link></li>
                             <li><g:message code="by.size.headline"/>:<br/>
