@@ -365,7 +365,6 @@
                                             params="${linkParams}"><img align="top" src="${createLinkTo(dir:'images',file:'forum-bubble.png')}" alt="Forum-Icon" /> <g:message code="edit.login.to.improve"/></g:link>
                                 </g:if>
                                 <br/>
-                                <g:render template="forumlink" />
                             </td>
                         </tr>
 
@@ -407,15 +406,15 @@
                               </g:link>
                           </td>
                           <td valign="top">${diffs.get(event)
-                                  .replaceAll("linking:", " <span class='add'>verlinkt:</span> ")
-                                  .replaceAll("adding link:", " <span class='add'>verlinkt:</span> ")
-                                  .replaceAll("(deleting|removing) link:", " <span class='del'>Link entfernt:</span> ")
-                                  .replaceAll("ist das Antonym von", " <b>ist das Antonym von</b> ")
-                                  .replaceAll(" assoziiert ", " <b>assoziiert</b> ")
+                                  .replaceAll("linking:", " <span class='add'>linking:</span> ")
+                                  .replaceAll("adding link:", " <span class='add'>adding link:</span> ")
+                                  .replaceAll("(deleting|removing) link:", " <span class='del'>deleting link:</span> ")
+                                  .replaceAll("ist das Antonym von", " <b>és un antònim de</b> ")
+                                  .replaceAll(" assoziiert ", " <b>associació</b> ")
                                   .replaceAll("&lt;b&gt;", "<b>")
                                   .replaceAll("&lt;/b&gt;", "</b>")
                                   .replaceAll("&lt;br/&gt;", "<br/>")
-                                  .replaceAll(" ist ein Oberbegriff von ", " <b>ist ein Oberbegriff von</b> ")}</td>
+                                  .replaceAll(" ist ein Oberbegriff von ", " <b>és unb superordinat de</b> ")}</td>
                           <td valign="top">${event.changeDesc?.encodeAsHTML()}</td>
                       </tr>
                   </g:each>
