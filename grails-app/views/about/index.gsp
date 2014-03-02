@@ -4,47 +4,39 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="layout" content="main" />
         <title><g:message code="about.title" /></title>
-        <meta name="description" content="OpenThesaurus ist eine interaktive Website zur Entwicklung eines deutschsprachigen Wörterbuchs für Synonyme."/>
+        <meta name="description" content="OpenThesaurus és un lloc web interactiu per a elaborar un diccionari català de sinònnims i assocacions."/>
     </head>
     <body>
 
 <!-- NOTE: -->
-<!-- THIS CONTENT IS SPECIFIC TO WWW.OPENTHESAURUS.DE -->
+<!-- THIS CONTENT IS SPECIFIC TO OPENTHESAURUS-CA -->
 
         <hr/>
         
-        <h2>Sobre l'OpenThesaurus</h2>
+        <h2>Quant a l'OpenThesaurus</h2>
 
-        <p>OpenThesaurus ist ein deutschsprachiges Wörterbuch für Synonyme und Assoziationen.
-        Man kann damit Wörter mit gleicher oder ähnlicher Bedeutung nachschlagen. Zum Beispiel liefert
-        die <a href="../synset/search?q=falsch">Suche nach <span class="bsp">falsch</span></a> unter anderem <span class="bsp">inkorrekt, unrichtig,
-        verkehrt</span> als Synonyme.</p>
+        <p>L'OpenThesaurus és un diccionari català de sinònims i associacions lliure.
+        Podeu cercar paraules per troboar-ne d'altres amb el mateix significat o relacionat. Per exemple, la 
+        <a href="../synset/search?q=dolent">cerca de <span class="bsp">dolent</span></a> ofereix, entre altres, els sinònims <span class="bsp">maligne, malvat, incorrecte</span>.</p>
 
-        <p>Jeder kann bei OpenThesaurus mitmachen und Fehler korrigieren
-        oder neue Synonyme einfügen. Die Suchfunktion zeigt alle Bedeutungen,
-        in denen ein Wort vorkommt (z.B. <span class="bsp">roh</span> -&gt; <span class="bsp">roh, ungekocht</span>
-        und einen anderen Eintrag für <span class="bsp">roh, rau, grob, unsanft</span>). Bei
-        den einzelnen Bedeutungen  lassen sich dann unpassende Wörter löschen
-        und neue hinzufügen. Details dazu finden sich in der <a href="faq">FAQ</a>.</p>
+        <p>Qualsevol qui ho desitgi pot col·laborar a l'Openthesaurus, corregir errors o afegir nous conceptes. La funció de cerca mostra tots els sentits assignats a una paraula. Podeu corregir els significats individuals, suprimir les paraules incorrctes o afegir-ne de noves. Teniu tots els detalls a les <a href="faq">PMF</a>.</p>
 
 
-        <h2>Lizenz</h2>
+        <h2>Llicència</h2>
 
-        <p>Die <strong>Daten</strong> von OpenThesaurus stehen via <a href="api">API</a> und <a href="download">Download</a> unter der
-          <a rel="license" href="http://creativecommons.org/licenses/LGPL/2.1/deed.de">GNU Lesser General Public License (LGPL)</a> zur Verfügung.
-          Das bedeutet einfach gesagt, dass die Daten kostenlos genutzt, verarbeitet, geändert und weiterverbreitet werden
-          können, solange die weiterverbreiteten Daten ebenfalls für den User deutlich erkennbar unter der LGPL stehen
-          und openthesaurus.de mit Link als die Quelle angegeben wird.</p>
+        <p>Les <strong>dades</strong> de l'Openthesaurus es troben disponibles via l'<a href="api">API</a> i <a href="download">baixada</a> sota els termes de la
+          <a rel="license" href="http://creativecommons.org/licenses/LGPL/2.1/deed.ca">GNU Lesser General Public License (LGPL)</a>.
+          Això simplement vol dir que sou lliure d'utilixar, processar, modificar i redistribuir les dades, sempre que es faci sota 
+          els termes de la mateixa llicència i s'indiqui clarament la font de les dades amb un enllaç a http://tesaure.softcatala.org.</p>
 
-        <p>Der <strong>Sourcecode der Website</strong> befindet sich <a href="https://github.com/danielnaber/openthesaurus">bei github</a>,
-          er steht unter der <a href="http://www.gnu.org/licenses/agpl.html">GNU AGPL</a>.
-          Auf diesem Server (www.openthesaurus.de) läuft Version <g:meta name="app.version"/>.
-          Die Installation ist in einem <a href="https://github.com/danielnaber/openthesaurus/blob/master/README">README</a>
-          und <a href="http://www.openthesaurus.de/jforum/posts/list/71.page">im Forum</a> beschrieben.
+        <p>El <strong>codi font del lloc web</strong> es troba disponible al <a href="https://github.com/jmontane/openthesaurus">github de Softcatalà</a>, i es basa en el codi de l'<a href="https://github.com/danielnaber/openthesaurus">Openthesaurus alemany original</a>
+          sota els termes de la llicència <a href="http://www.gnu.org/licenses/agpl.html">GNU AGPL</a>.
+          Aquest servidor (http://tesaure.softcatala.org) té instal·lada la versió <g:meta name="app.version"/>.
+          Les instruccions d'instal·lació són a <a href="https://github.com/jmontane/openthesaurus/blob/master/README">README</a>.
         </p>
 
     
-        <h2>Analysedienste &amp; Datenschutz</h2>
+        <h2>Anàlisi i dades</h2>
 
         <p><g:link action="imprint">Informació de contacte</g:link></p>
 
