@@ -300,14 +300,14 @@
                             <%
                             Set displayedSynsets = new HashSet()
                             %>
-                            <g:render template="link" model="[title:'Oberbegriffe', linkTypeName:'Oberbegriff',
+                            <g:render template="link" model="[title:'Superordinat', linkTypeName:'Superordinat',
                                 synset:synset, synsetLinks:synsetLinks, showAddLink:true, displayedSynsets: displayedSynsets]" />
 
-                            <g:render template="link" model="[title:'Unterbegriffe', linkTypeName:'Unterbegriff',
+                            <g:render template="link" model="[title:'Subordinat', linkTypeName:'Subordinat',
                                 synset:synset, synsetLinks:synsetLinks, showAddLink:false, displayedSynsets: displayedSynsets,
                                 reverseLink:true]" />
 
-                            <g:render template="link" model="[title:'Assoziationen', linkTypeName:'Assoziation',
+                            <g:render template="link" model="[title:'Associació', linkTypeName:'Associació',
                                 synset:synset, synsetLinks:synsetLinks, showAddLink:true, displayedSynsets: displayedSynsets]" />
 
                         </g:if>
