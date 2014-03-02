@@ -8,7 +8,7 @@
     <body>
 
         <!-- NOTE: -->
-        <!-- THIS CONTENT IS SPECIFIC TO WWW.OPENTHESAURUS.DE -->
+        <!-- THIS CONTENT IS SPECIFIC TO OPENTHESAURUS-CA-->
 
         <hr />
     
@@ -16,9 +16,9 @@
 
             <h2><g:message code="newsletter.headline"/></h2>
 
-            <p>Unser Newsletter informiert in unregelmäßigen Abständen (alle paar Wochen oder Monate) über Neuigkeiten auf OpenThesaurus:</p>
+            <p>La llista serveix com a eina de coordinació dels col·laboradors de l'OpenThesaurus. El trànsit és reduït.</p>
 
-            <form method="post" action="http://lists.berlios.de/mailman/subscribe/openthesaurus-discuss">
+            <form method="post" action="http://llistes.softcatala.org/mailman/subscribe/sinonims">
                 <table>
                     <tbody>
                         <tr>
@@ -27,12 +27,12 @@
                         </tr>
                         <tr>
                             <td></td>
-                            <td><input class="submitButton" type="submit" value="Newsletter abonnieren"/></td>
+                            <td><input class="submitButton" type="submit" value="Subscriu-me a la llista"/></td>
                         </tr>
                         <tr>
                             <td></td>
-                            <td>Zum <a href="https://lists.berlios.de/pipermail/openthesaurus-discuss/">Newsletter-Archiv</a>,
-                                zur <a href="https://lists.berlios.de/mailman/listinfo/openthesaurus-discuss">Abmeldung</a>
+                            <td>Visiteu l'<a href="http://llistes.softcatala.org/pipermail/sinonims/">arxiu de missatges</a>,
+                                o consulteu la <a href="http://llistes.softcatala.org/mailman/listinfo/sinonims">informació de la llista</a>
                             </td>
                         </tr>
                     </tbody>
