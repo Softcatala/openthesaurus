@@ -8,23 +8,13 @@
 
 <p style="line-height: 175%">
 
-    <a href="http://dlc.iec.cat/results.asp?txtEntrada=${latin1Query}&OperEntrada=0" title="DIEC2">DIEC2</a>
+    <a href="http://dlc.iec.cat/results.asp?txtEntrada=${latin1Query}&OperEntrada=0" title="Cerca al DIEC2">DIEC2</a>
 
     <span class="d">&middot;</span>
-    <a href="http://www.canoo.net/services/Controller?input=${latin1Query}&amp;service=inflection">Wortformen von Canoo.net</a>
-
+    <a http://ec.grec.net/cgi-bin/AppDLC3.exe?APP=CERCADLC&GECART=${q.encodeAsUrl()}" title="Cerca al diccionari de l'GDLC">GDLC</a>
     <br/>
-    <a href="http://dict.tu-chemnitz.de/dings.cgi?lang=de&amp;noframes=1&amp;service=&amp;query=${latin1Query}&amp;optword=1&amp;optcase=1&amp;opterrors=0&amp;optpro=0&amp;style=&amp;dlink=self"
-     >Beolingus Deutsch-Englisch</a>
-
-    <%--
-    <span class="d">&middot;</span>
-    <a href="http://www.dict.cc/?s=${q.encodeAsURL()}" title="Englisch-Deutsch">dict.cc</a>
-    --%>
-
-    <%--
+   
+    <a href="http://ca.wiktionary.org/wiki/Especial:Cerca?search=${q.encodeAsURL()}" title="Cerca al Viccionari">Viccionari</a>
     <span class="d">&middot;</span>
     <a href="http://www.google.cat/search?q=${q.encodeAsURL()}&amp;lr=lang_ca" title="Cerca al web">Google</a>
-    --%>
-
 </p>
