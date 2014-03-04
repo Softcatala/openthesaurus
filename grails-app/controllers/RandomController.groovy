@@ -62,7 +62,7 @@ class RandomController extends BaseController {
         def randomWords = randomWordService.getRandomWords(wordCount)
         render(contentType:"text/json", encoding:"utf-8") {
           metaData apiVersion: "0.2",
-                   warning: "ACHTUNG: Bitte vor ernsthafter Nutzung feedback@openthesaurus.de kontaktieren, um bei API-Änderungen informiert zu werden",
+                   warning: "Atenció: API en desenvolupament, contacteu amb jmontane (a) softcatala (punt) org abans d'usar-la, així podrem informar-vos de qualsevol canvi en l'API",
                    copyright: grailsApplication.config.thesaurus.apiCopyright,
                    license: grailsApplication.config.thesaurus.apiLicense,
                    source: grailsApplication.config.thesaurus.apiSource,
