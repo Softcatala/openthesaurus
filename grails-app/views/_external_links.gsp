@@ -11,7 +11,7 @@
     <a href="http://dlc.iec.cat/results.asp?txtEntrada=${latin1Query}&OperEntrada=0" title="Cerca al DIEC2">DIEC2</a>
 
     <span class="d">&middot;</span>
-    <a http://ec.grec.net/cgi-bin/AppDLC3.exe?APP=CERCADLC&GECART=${q.encodeAsUrl()}" title="Cerca al diccionari de l'GDLC">GDLC</a>
+    <a http://ec.grec.net/cgi-bin/AppDLC3.exe?APP=CERCADLC&GECART=${q.encodeAsURL()}" title="Cerca al diccionari de l'GDLC">GDLC</a>
     <br/>
    
     <a href="http://ca.wiktionary.org/wiki/Especial:Cerca?search=${q.encodeAsURL()}" title="Cerca al Viccionari">Viccionari</a>
