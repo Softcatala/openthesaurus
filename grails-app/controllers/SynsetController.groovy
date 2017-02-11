@@ -106,6 +106,15 @@ class SynsetController extends BaseController {
     def search = {
         long startTime = System.currentTimeMillis()
 
+	boolean apiRequest = params.format == "text/xml" || params.format == "application/json"
+
+	if (!apiRequest && params.q && !session.user) {
+ 		String q = URLEncoder.encode(params.q, "UTF-8")
+        	RedirectController redirectController = new RedirectController()
+     		redirect(url: "https://www.softcatala.org/diccionari-de-sinonims/paraula/" + q)		
+		return;
+	}
+
         if (!params.q) {
           log.warn("No query specified for search (${IpTools.getRealIpAddress(request)})")
           response.status = 500
@@ -118,7 +127,6 @@ class SynsetController extends BaseController {
         Connection conn = null
         try {
           conn = dataSource.getConnection()
-          boolean apiRequest = params.format == "text/xml" || params.format == "application/json"
           boolean spellApiRequest = params.similar == "true"
           boolean allApiRequest = params.mode == "all"
           boolean partialApiRequest = params.substring == "true"
@@ -559,6 +567,9 @@ class SynsetController extends BaseController {
             response.sendError(404)
             return
         }
+
+	
+
         def synset = Synset.get(params.id)
         if (!synset) {
             response.sendError(404)
@@ -576,6 +587,15 @@ class SynsetController extends BaseController {
             boolean showOrigSource =
                 grailsApplication.config.thesaurus.showOriginalSource == "true"
             long runTime = System.currentTimeMillis() - startTime
+
+	    def sorted = synset.sortedTerms();
+	    if (sorted.size() > 0) {
+ 		String q = URLEncoder.encode(sorted[0].toString(), "UTF-8")
+        	RedirectController redirectController = new RedirectController()
+     		redirect(url: "https://www.softcatala.org/diccionari-de-sinonims/paraula/" + q)		
+		return;
+	    }
+
             return [ synset : synset, eventListCount : eventListCount, eventList : eventList,
                      diffs: diffs, typeNames : typeNames, showOrigSource : showOrigSource,
                      runTime : runTime ]

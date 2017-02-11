@@ -32,6 +32,8 @@
   </form>
 </div>
 
+ <p>Aquesta web és pels col·laboradors del diccionari. Heu de donar-vos d'alta i entrar per treballar amb l'OpenTheasurus. Sinó ho feu, sereu redirigits al diccionari de sinònims de la web de Softcatalà.</p>.
+
 <g:if test="${preventSearchFocus != 'true'}">
     <script type="text/javascript">
     <!--
