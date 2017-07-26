@@ -589,7 +589,7 @@ class SynsetController extends BaseController {
             long runTime = System.currentTimeMillis() - startTime
 
 	    def sorted = synset.sortedTerms();
-	    if (sorted.size() > 0) {
+	    if (sorted.size() > 0 && !session.user) {
  		String q = URLEncoder.encode(sorted[0].toString(), "UTF-8")
         	RedirectController redirectController = new RedirectController()
      		redirect(url: "https://www.softcatala.org/diccionari-de-sinonims/paraula/" + q)		
